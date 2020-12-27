@@ -9,7 +9,7 @@ def gotest(list1):
     return j
 
 client = discord.Client()
-token="NzIxNjcxNzkxMDIxNjU0MDE2.XuX7Og.16KwYq04kvgFDsq4Kg9TlTxSGhA"
+token="your_discord_bot_token"
 
 html = requests.get("https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=0&acr=8&acq=%EC%BD%94%EB%A1%9C%EB%8B%88&qdt=0&ie=utf8&query=%EC%BD%94%EB%A1%9C%EB%8B%88")
 soup = BeautifulSoup(html.text,'html.parser')
